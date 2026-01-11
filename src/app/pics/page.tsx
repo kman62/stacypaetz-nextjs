@@ -14,7 +14,33 @@ const headshots = [
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/StacySmile.jpg?fit=425%2C640&ssl=1', alt: 'Stacy Paetz' },
 ];
 
-const celebrities = [
+const onAir = [
+  // New OnAir images from Downloads
+  { src: '/images/onair/onair-1.jpg', alt: 'On Air' },
+  { src: '/images/onair/onair-2.JPG', alt: 'With Anthony Anderson' },
+  { src: '/images/onair/onair-3.jpg', alt: 'On Air' },
+  { src: '/images/onair/onair-4.jpg', alt: 'On Air' },
+  { src: '/images/onair/onair-5.JPG', alt: 'On Air' },
+  { src: '/images/onair/onair-6.jpg', alt: 'On Air' },
+  { src: '/images/onair/onair-7.jpg', alt: 'On Air' },
+  { src: '/images/onair/onair-8.JPG', alt: 'On Air' },
+  { src: '/images/onair/onair-9.jpeg', alt: 'On Air' },
+  { src: '/images/onair/onair-10.jpeg', alt: 'On Air' },
+  { src: '/images/onair/onair-11.jpeg', alt: 'On Air' },
+  { src: '/images/onair/onair-12.jpeg', alt: 'On Air' },
+  { src: '/images/onair/onair-13.JPG', alt: 'On Air' },
+  { src: '/images/onair/onair-14.jpeg', alt: 'On Air' },
+  { src: '/images/onair/onair-15.JPG', alt: 'With Jerry Stackhouse' },
+  { src: '/images/onair/onair-16.JPG', alt: 'With Juwan Howard' },
+  { src: '/images/onair/onair-17.jpg', alt: 'On Air' },
+  { src: '/images/onair/onair-18.jpg', alt: 'On Air' },
+  { src: '/images/onair/onair-19.JPG', alt: 'With Reggie Wayne' },
+  { src: '/images/onair/onair-20.png', alt: 'On Air' },
+  { src: '/images/onair/onair-21.png', alt: 'On Air' },
+  { src: '/images/onair/onair-22.png', alt: 'On Air' },
+  { src: '/images/onair/onair-23.JPG', alt: 'With Steve Smith' },
+  { src: '/images/onair/onair-24.JPG', alt: 'With Vince Carter' },
+  // Original celebrities
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/LebronJames.jpg?fit=720%2C540&ssl=1', alt: 'With LeBron James' },
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/Patrick-Ewing.jpg?fit=720%2C540&ssl=1', alt: 'With Patrick Ewing' },
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/WayneGretzky.jpg?fit=2592%2C1936&ssl=1', alt: 'With Wayne Gretzky' },
@@ -29,9 +55,7 @@ const celebrities = [
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/Archie-Manning1.jpg?fit=720%2C540&ssl=1', alt: 'With Archie Manning' },
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/Reggie-Wayne.jpg?fit=720%2C540&ssl=1', alt: 'With Reggie Wayne' },
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2004/11/IMG_0572-resized.jpg?fit=915%2C600&ssl=1', alt: 'With John Wooden' },
-];
-
-const broadcast = [
+  // Original broadcast
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2016/06/StacyNBAtv2.jpg?fit=1080%2C1920&ssl=1', alt: 'NBA TV' },
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/Analyst-NBAtv.jpg?fit=725%2C465&ssl=1', alt: 'NBA TV Analyst' },
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/Analyst-TNT.jpg?fit=714%2C470&ssl=1', alt: 'TNT Analyst' },
@@ -67,24 +91,16 @@ export default function PicsPage() {
         </div>
       </section>
 
-      {/* Celebrities */}
+      {/* On Air */}
       <section className="py-12 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-6">Celebrity & Athletes</h2>
-          <ImageGallery images={celebrities} />
-        </div>
-      </section>
-
-      {/* Broadcast */}
-      <section className="py-12">
-        <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-2xl font-bold mb-6">On Air</h2>
-          <ImageGallery images={broadcast} />
+          <ImageGallery images={onAir} />
         </div>
       </section>
 
       {/* Sports & Adventure */}
-      <section className="py-12 bg-gray-50">
+      <section className="py-12">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-2xl font-bold mb-6">Sports & Adventures</h2>
           <ImageGallery images={sports} />
