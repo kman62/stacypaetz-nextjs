@@ -33,12 +33,13 @@ export default function ImageGallery({ images, className = '' }: ImageGalleryPro
     <>
       <div className={`relative ${className}`}>
         {/* Main Image */}
-        <div className="relative aspect-[16/10] overflow-hidden rounded-lg bg-gray-100">
+        <div className="relative h-[400px] md:h-[500px] overflow-hidden rounded-lg bg-gray-100 flex items-center justify-center">
           <Image
             src={images[currentIndex].src}
             alt={images[currentIndex].alt}
-            fill
-            className="object-cover cursor-pointer transition-transform hover:scale-105"
+            width={800}
+            height={500}
+            className="max-h-full max-w-full w-auto h-auto object-contain cursor-pointer transition-transform hover:scale-105"
             onClick={() => setLightboxOpen(true)}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
           />
