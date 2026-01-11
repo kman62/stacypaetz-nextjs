@@ -2,25 +2,115 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #1a1a1a;
+  --accent-red: #eb092b;
+  --accent-blue: #007cb5;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-accent-red: var(--accent-red);
+  --color-accent-blue: var(--accent-blue);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Button styles */
+.btn-primary {
+  @apply inline-flex items-center justify-center px-6 py-3 bg-[#eb092b] hover:bg-[#c9081f] text-white font-medium rounded transition-colors;
+}
+
+.btn-linkedin {
+  @apply inline-flex items-center justify-center px-6 py-3 bg-[#007cb5] hover:bg-[#006699] text-white font-medium rounded transition-colors;
+}
+
+.btn-outline {
+  @apply inline-flex items-center justify-center px-6 py-3 border-2 border-gray-800 hover:bg-gray-800 hover:text-white text-gray-800 font-medium rounded transition-colors;
+}
+
+/* WordPress content styles */
+.wp-content {
+  @apply text-gray-800 leading-relaxed;
+}
+
+.wp-content h1 {
+  @apply text-4xl font-bold mb-6 text-gray-900;
+}
+
+.wp-content h2 {
+  @apply text-3xl font-bold mb-4 mt-8 text-gray-900;
+}
+
+.wp-content h3 {
+  @apply text-2xl font-semibold mb-3 mt-6 text-gray-900;
+}
+
+.wp-content p {
+  @apply mb-4 text-lg;
+}
+
+.wp-content a {
+  @apply text-[#007cb5] hover:text-[#005580] transition-colors;
+}
+
+.wp-content img {
+  @apply rounded-lg shadow-md my-4 max-w-full h-auto;
+}
+
+.wp-content ul,
+.wp-content ol {
+  @apply mb-4 pl-6;
+}
+
+.wp-content li {
+  @apply mb-2;
+}
+
+.wp-content blockquote {
+  @apply border-l-4 border-[#eb092b] pl-4 italic my-4 text-gray-600;
+}
+
+/* Slideshow/Gallery styles */
+.slideshow-container {
+  @apply relative overflow-hidden rounded-lg;
+}
+
+.slideshow-nav {
+  @apply absolute top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full transition-colors z-10;
+}
+
+.slideshow-nav-left {
+  @apply left-4;
+}
+
+.slideshow-nav-right {
+  @apply right-4;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
