@@ -71,11 +71,9 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Press Play */}
+      {/* Videos */}
       <section className="py-12 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-2xl font-bold text-center mb-8">Press Play</h2>
-
           {/* Featured Video - Rudy Tomjanovich */}
           <div className="max-w-3xl mx-auto mb-8">
             <div className="aspect-video">

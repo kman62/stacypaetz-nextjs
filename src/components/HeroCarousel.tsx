@@ -31,12 +31,28 @@ const bannerImages = [
     alt: "Stacy Paetz Event Coverage"
   },
   {
-    src: "https://stacypaetz.com/wp-content/uploads/2018/08/IMG_0917.jpg",
-    alt: "Stacy Paetz Live Broadcast"
-  },
-  {
     src: "https://stacypaetz.com/wp-content/uploads/2018/08/IMG_1083.jpg",
     alt: "Stacy Paetz Reporter"
+  },
+  {
+    src: "/images/carousel/carousel-1.jpg",
+    alt: "Stacy Paetz"
+  },
+  {
+    src: "/images/carousel/carousel-2.png",
+    alt: "Stacy Paetz Broadcasting"
+  },
+  {
+    src: "/images/carousel/carousel-3.png",
+    alt: "Stacy Paetz On Set"
+  },
+  {
+    src: "/images/carousel/carousel-4.png",
+    alt: "Stacy Paetz Coverage"
+  },
+  {
+    src: "/images/carousel/carousel-5.png",
+    alt: "Stacy Paetz Live"
   },
 ];
 
@@ -47,7 +63,7 @@ export default function HeroCarousel() {
   const autoplayPlugin = useMemo(
     () =>
       Autoplay({
-        delay: 2000,
+        delay: 3000,
         stopOnInteraction: false,
       }),
     []
@@ -96,15 +112,15 @@ export default function HeroCarousel() {
   if (!mounted) {
     return (
       <div className="w-full">
-        <div className="relative overflow-hidden">
-          <div className="flex justify-center items-center py-4 px-4 md:px-20">
-            <div className="relative max-w-md md:max-w-lg lg:max-w-xl overflow-hidden">
+        <div className="relative overflow-hidden bg-gray-50">
+          <div className="flex justify-center items-center h-[500px] px-4">
+            <div className="relative h-[480px] w-auto">
               <Image
                 src={bannerImages[0].src}
                 alt={bannerImages[0].alt}
-                width={600}
-                height={800}
-                className="w-full h-auto object-contain"
+                width={800}
+                height={480}
+                className="h-[480px] w-auto object-contain"
                 priority
               />
             </div>
@@ -127,20 +143,20 @@ export default function HeroCarousel() {
   return (
     <div className="w-full">
       {/* Carousel */}
-      <div className="relative overflow-hidden" ref={emblaRef}>
+      <div className="relative overflow-hidden bg-gray-50" ref={emblaRef}>
         <div className="flex">
           {bannerImages.map((image, index) => (
             <div
               key={index}
-              className="min-w-0 flex-[0_0_100%] flex justify-center items-center py-4 px-4 md:px-20"
+              className="min-w-0 flex-[0_0_100%] flex justify-center items-center h-[500px] px-4"
             >
-              <div className="relative max-w-md md:max-w-lg lg:max-w-xl overflow-hidden">
+              <div className="relative h-[480px] w-auto">
                 <Image
                   src={image.src}
                   alt={image.alt}
-                  width={600}
-                  height={800}
-                  className="w-full h-auto object-contain"
+                  width={800}
+                  height={480}
+                  className="h-[480px] w-auto object-contain"
                   priority={index === 0}
                 />
               </div>
