@@ -6,6 +6,8 @@ export const metadata = {
 };
 
 const candid = [
+  // Lead image
+  { src: '/images/candid/candid-20.jpg', alt: 'Candid' },
   // New Candid images from Downloads (1-70)
   { src: '/images/candid/candid-1.jpg', alt: 'Candid' },
   { src: '/images/candid/candid-2.jpg', alt: 'Candid' },
@@ -26,7 +28,6 @@ const candid = [
   { src: '/images/candid/candid-17.jpg', alt: 'Candid' },
   { src: '/images/candid/candid-18.jpg', alt: 'Candid' },
   { src: '/images/candid/candid-19.png', alt: 'Candid' },
-  { src: '/images/candid/candid-20.jpg', alt: 'Candid' },
   { src: '/images/candid/candid-21.jpeg', alt: 'Candid' },
   { src: '/images/candid/candid-22.jpeg', alt: 'Candid' },
   { src: '/images/candid/candid-23.jpg', alt: 'Candid' },
