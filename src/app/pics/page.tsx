@@ -5,13 +5,90 @@ export const metadata = {
   description: 'Photo galleries featuring Stacy Paetz - professional headshots, celebrity encounters, sports coverage, and more',
 };
 
-const headshots = [
+const candid = [
+  // New Candid images from Downloads (1-70)
+  { src: '/images/candid/candid-1.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-2.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-3.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-4.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-5.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-6.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-7.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-8.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-9.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-10.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-11.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-12.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-13.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-14.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-15.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-16.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-17.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-18.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-19.png', alt: 'Candid' },
+  { src: '/images/candid/candid-20.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-21.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-22.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-23.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-24.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-25.png', alt: 'Candid' },
+  { src: '/images/candid/candid-26.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-27.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-28.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-29.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-30.png', alt: 'Candid' },
+  { src: '/images/candid/candid-31.png', alt: 'Candid' },
+  { src: '/images/candid/candid-32.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-33.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-34.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-35.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-36.png', alt: 'Candid' },
+  { src: '/images/candid/candid-37.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-38.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-39.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-40.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-41.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-42.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-43.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-44.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-45.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-46.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-47.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-48.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-49.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-50.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-51.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-52.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-53.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-54.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-55.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-56.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-57.jpeg', alt: 'Candid' },
+  { src: '/images/candid/candid-58.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-59.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-60.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-61.png', alt: 'Candid' },
+  { src: '/images/candid/candid-62.png', alt: 'Candid' },
+  { src: '/images/candid/candid-63.png', alt: 'Candid' },
+  { src: '/images/candid/candid-64.png', alt: 'Candid' },
+  { src: '/images/candid/candid-65.png', alt: 'Candid' },
+  { src: '/images/candid/candid-66.png', alt: 'Candid' },
+  { src: '/images/candid/candid-67.png', alt: 'Candid' },
+  { src: '/images/candid/candid-68.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-69.jpg', alt: 'Candid' },
+  { src: '/images/candid/candid-70.jpg', alt: 'Candid' },
+  // Original headshots
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/IMG_9332.jpg?fit=1200%2C1800&ssl=1', alt: 'Professional Headshot' },
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/StacyPaetzSmile2.jpg?fit=600%2C897&ssl=1', alt: 'Stacy Paetz' },
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/StacySuit11.jpg?fit=400%2C532&ssl=1', alt: 'Professional Photo' },
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2015/11/Stacy-Mic3.jpg?fit=369%2C508&ssl=1', alt: 'With Microphone' },
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2015/12/WithDogBW-R.jpg?fit=2464%2C3696&ssl=1', alt: 'Portrait with Dog' },
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/StacySmile.jpg?fit=425%2C640&ssl=1', alt: 'Stacy Paetz' },
+  // Original sports
+  { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/StacySoftball3.jpg?fit=1198%2C959&ssl=1', alt: 'Softball' },
+  { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/STACY-RACE-CAR-2010-4-021.jpg?fit=1920%2C2560&ssl=1', alt: 'Race Car' },
+  { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2016/07/SkySpaceStacy.jpg?fit=3264%2C2448&ssl=1', alt: 'Sky Space' },
+  { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/StacyFence2.jpg?fit=960%2C640&ssl=1', alt: 'Adventure' },
 ];
 
 const onAir = [
@@ -66,13 +143,6 @@ const onAir = [
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2016/06/StacyNBAtv4.jpg?fit=4128%2C2322&ssl=1', alt: 'On Set' },
 ];
 
-const sports = [
-  { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/StacySoftball3.jpg?fit=1198%2C959&ssl=1', alt: 'Softball' },
-  { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/STACY-RACE-CAR-2010-4-021.jpg?fit=1920%2C2560&ssl=1', alt: 'Race Car' },
-  { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2016/07/SkySpaceStacy.jpg?fit=3264%2C2448&ssl=1', alt: 'Sky Space' },
-  { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/StacyFence2.jpg?fit=960%2C640&ssl=1', alt: 'Adventure' },
-];
-
 export default function PicsPage() {
   return (
     <div className="bg-white min-h-screen">
@@ -83,11 +153,11 @@ export default function PicsPage() {
         </div>
       </section>
 
-      {/* Headshots */}
+      {/* Candid */}
       <section className="py-12">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-6">Professional Photos</h2>
-          <ImageGallery images={headshots} />
+          <h2 className="text-2xl font-bold mb-6">Candid</h2>
+          <ImageGallery images={candid} />
         </div>
       </section>
 
@@ -96,14 +166,6 @@ export default function PicsPage() {
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-2xl font-bold mb-6">On Air</h2>
           <ImageGallery images={onAir} />
-        </div>
-      </section>
-
-      {/* Sports & Adventure */}
-      <section className="py-12">
-        <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-6">Sports & Adventures</h2>
-          <ImageGallery images={sports} />
         </div>
       </section>
     </div>
