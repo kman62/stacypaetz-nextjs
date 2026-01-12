@@ -54,6 +54,10 @@ const bannerImages = [
     src: "/images/carousel/carousel-5.png",
     alt: "Stacy Paetz Live"
   },
+  {
+    src: "/images/carousel/carousel-6.png",
+    alt: "Stacy Paetz Broadcasting"
+  },
 ];
 
 export default function HeroCarousel() {

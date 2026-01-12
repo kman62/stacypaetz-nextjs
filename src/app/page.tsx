@@ -41,8 +41,8 @@ export default function HomePage() {
               <p className="text-base md:text-lg">
                 Stacy Paetz began her career making history. At only 19-years-old, she made her first on-air
                 appearance on ESPN. She became the first female and youngest individual in the NBA to host every pre-game, halftime
-                and post-game show, as well as report from the sidelines for the Indiana Pacers on FOX Sports Indiana. In 2014, Stacy
-                became the first female announcer in the 90-year history of the World Famous Harlem Globetrotters, announcing
+                and post-game show, as well as report from the sidelines for the Indiana Pacers on FOX Sports Indiana. Stacy
+                was the first female announcer in the 90-year history of the World Famous Harlem Globetrotters, announcing
                 on both U.S. and international tours.
               </p>
             </div>
