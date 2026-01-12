@@ -38,7 +38,6 @@ const candid = [
   { src: '/images/candid/candid-28.jpeg', alt: 'Candid' },
   { src: '/images/candid/candid-29.jpg', alt: 'Candid' },
   { src: '/images/candid/candid-30.png', alt: 'Candid' },
-  { src: '/images/candid/candid-31.png', alt: 'Candid' },
   { src: '/images/candid/candid-33.jpeg', alt: 'Candid' },
   { src: '/images/candid/candid-34.jpeg', alt: 'Candid' },
   { src: '/images/candid/candid-35.jpg', alt: 'Candid' },
@@ -79,7 +78,6 @@ const candid = [
   { src: '/images/candid/candid-70.jpg', alt: 'Candid' },
   // Original headshots
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/IMG_9332.jpg?fit=1200%2C1800&ssl=1', alt: 'Professional Headshot' },
-  { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/StacyPaetzSmile2.jpg?fit=600%2C897&ssl=1', alt: 'Stacy Paetz' },
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/StacySuit11.jpg?fit=400%2C532&ssl=1', alt: 'Professional Photo' },
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2015/11/Stacy-Mic3.jpg?fit=369%2C508&ssl=1', alt: 'With Microphone' },
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2015/12/WithDogBW-R.jpg?fit=2464%2C3696&ssl=1', alt: 'Portrait with Dog' },
