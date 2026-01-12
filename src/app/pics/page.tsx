@@ -39,7 +39,6 @@ const candid = [
   { src: '/images/candid/candid-29.jpg', alt: 'Candid' },
   { src: '/images/candid/candid-30.png', alt: 'Candid' },
   { src: '/images/candid/candid-31.png', alt: 'Candid' },
-  { src: '/images/candid/candid-32.jpg', alt: 'Candid' },
   { src: '/images/candid/candid-33.jpeg', alt: 'Candid' },
   { src: '/images/candid/candid-34.jpeg', alt: 'Candid' },
   { src: '/images/candid/candid-35.jpg', alt: 'Candid' },
@@ -95,6 +94,8 @@ const candid = [
 const onAir = [
   // Lead image
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/Spyke-Lee1.jpg?fit=720%2C540&ssl=1', alt: 'With Spike Lee' },
+  // Moved from Candid
+  { src: '/images/candid/candid-32.jpg', alt: 'On Air' },
   // New OnAir images from Downloads
   { src: '/images/onair/onair-1.jpg', alt: 'On Air' },
   { src: '/images/onair/onair-2.JPG', alt: 'With Anthony Anderson' },
