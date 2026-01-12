@@ -92,6 +92,8 @@ const candid = [
 ];
 
 const onAir = [
+  // Lead image
+  { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/Spyke-Lee1.jpg?fit=720%2C540&ssl=1', alt: 'With Spike Lee' },
   // New OnAir images from Downloads
   { src: '/images/onair/onair-1.jpg', alt: 'On Air' },
   { src: '/images/onair/onair-2.JPG', alt: 'With Anthony Anderson' },
@@ -122,7 +124,6 @@ const onAir = [
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/Patrick-Ewing.jpg?fit=720%2C540&ssl=1', alt: 'With Patrick Ewing' },
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/WayneGretzky.jpg?fit=2592%2C1936&ssl=1', alt: 'With Wayne Gretzky' },
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/Kareem.jpg?fit=720%2C540&ssl=1', alt: 'With Kareem Abdul-Jabbar' },
-  { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/Spyke-Lee1.jpg?fit=720%2C540&ssl=1', alt: 'With Spike Lee' },
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/Common.jpg?fit=720%2C540&ssl=1', alt: 'With Common' },
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/04/Pau-Gasol.jpg?fit=720%2C540&ssl=1', alt: 'With Pau Gasol' },
   { src: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2010/06/AmareStoudemire.jpg?fit=715%2C1080&ssl=1', alt: 'With Amare Stoudemire' },
