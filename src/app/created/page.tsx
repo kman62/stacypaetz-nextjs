@@ -95,6 +95,16 @@ export default function CreatedPage() {
               className="mx-auto"
             />
           </div>
+          <div className="max-w-2xl mx-auto mb-8">
+            <video
+              controls
+              className="w-full rounded-lg shadow-lg"
+              poster="/images/created/p8z-clothing.png"
+            >
+              <source src="https://stacypaetz.com/wp-content/uploads/2021/09/p8z-Week-17.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
           <div className="text-center">
             <a
               href="https://shopmlr.com/?s=P8Z&post_type=product"
