@@ -52,6 +52,16 @@ export default function CreatedPage() {
       {/* Book */}
       <section className="py-12">
         <div className="max-w-4xl mx-auto px-4">
+          <div className="max-w-2xl mx-auto mb-8">
+            <video
+              controls
+              className="w-full rounded-lg shadow-lg"
+            >
+              <source src="https://stacypaetz.com/wp-content/uploads/2021/03/Blocked.mov" type="video/quicktime" />
+              <source src="https://stacypaetz.com/wp-content/uploads/2021/03/Blocked.mov" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="md:w-1/3">
               <Image
