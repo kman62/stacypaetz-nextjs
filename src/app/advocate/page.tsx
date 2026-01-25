@@ -80,41 +80,6 @@ const organizations = [
     description: 'Autism Speaks has grown into the world\'s leading autism science and advocacy organization, dedicated to funding research into the causes, prevention, treatments and a cure for autism.',
   },
   {
-    name: 'Fellowship of Christian Athletes (FCA)',
-    image: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/05/FCA.png?resize=422%2C425',
-    description: 'FCA presents to coaches and athletes, and all whom they influence, the challenge and adventure of the four C\'s of ministry: Coaches, Campus, Camp, Community.',
-  },
-  {
-    name: 'NFTE',
-    image: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/06/NFTE_SmallTagLock_RGB-copy.png?resize=750%2C373',
-    description: 'NFTE brings entrepreneurial training to high school students from low-income communities. Through its programs, students work closely with NFTE educators to re-engage them in learning, introduce them to business concepts, and open up their possibilities for the future.',
-  },
-  {
-    name: 'NAEHCY',
-    image: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/05/NAEHCY.png?resize=681%2C252',
-    description: 'NAEHCY is the voice and social conscience for the education of children and youth experiencing homelessness. NAEHCY includes education liaisons, school counselors, social workers, nurses and child advocates.',
-  },
-  {
-    name: 'The Boaz Project',
-    image: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/05/BoazLogo.png?resize=342%2C494',
-    description: 'The Boaz Project seeks to touch an ever-growing number of orphans with Christ\'s love through a variety of efforts, inspiring and equipping leaders around the globe to care for orphans in their own communities.',
-  },
-  {
-    name: 'CHLF',
-    image: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/06/CHLF.jpg?resize=661%2C562',
-    description: 'Through the small group church-planting approach of native Galilean pastors and their families, CHLF works alongside brothers and sisters in Israel and beyond to help them teach and make disciples.',
-  },
-  {
-    name: 'Athletes Against Drugs (AAD)',
-    image: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/06/AAD.png?resize=432%2C418',
-    description: 'Stedman Graham founded AAD, a non-profit organization that provides services to youth and has awarded over $1.5 million in scholarships since its founding in 1985.',
-  },
-  {
-    name: 'Hope for Women',
-    image: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/06/Hope-for-women.jpg?resize=728%2C307',
-    description: 'Hope embraces and celebrates the diversity of women — while providing the inspiration, support, and information women want most to live a purpose-filled life.',
-  },
-  {
     name: 'Sheltering Wings',
     image: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/06/SW_logo.jpg?resize=700%2C256',
     description: 'Sheltering Wings provides emergency housing for all women and children suffering from any form of domestic abuse. Sheltering Wings builds stable and independent lives through essential programs offered in a supportive and Christ-centered environment.',
