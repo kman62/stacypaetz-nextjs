@@ -15,36 +15,42 @@ export default function CreatedPage() {
         </div>
       </section>
 
-      {/* P8Z Clothing */}
-      <section className="py-12">
+      {/* YouTube */}
+      <section className="py-12 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-8">
-            <Image
-              src="/images/created/p8z-clothing.png"
-              alt="P8Z Clothing Co"
-              width={600}
-              height={240}
-              className="mx-auto"
+            <h2 className="text-2xl font-bold mb-4">YouTube Channel</h2>
+            <p className="text-gray-700 mb-6">
+              Subscribe for exclusive content, behind-the-scenes footage, interviews, and highlights.
+            </p>
+          </div>
+          <div className="aspect-video max-w-2xl mx-auto mb-6">
+            <iframe
+              src="https://www.youtube.com/embed/videoseries?list=PLd1gxAXJC-8m5s7rTg4L0K_3L9VE3Nkpo"
+              title="Stacy Paetz YouTube Channel"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="w-full h-full rounded-lg shadow-lg"
             />
           </div>
           <div className="text-center">
             <a
-              href="https://shopmlr.com/?s=P8Z&post_type=product"
+              href="https://www.youtube.com/user/stacypaetz"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center px-6 py-3 bg-[#eb092b] hover:bg-[#c9081f] text-white font-medium rounded transition-colors"
+              className="inline-flex items-center px-6 py-3 bg-red-600 hover:bg-red-700 text-white font-medium rounded transition-colors"
             >
-              Shop P8Z Clothing
-              <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
               </svg>
+              Subscribe on YouTube
             </a>
           </div>
         </div>
       </section>
 
       {/* Book */}
-      <section className="py-12 bg-gray-50">
+      <section className="py-12">
         <div className="max-w-4xl mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="md:w-1/3">
@@ -73,6 +79,34 @@ export default function CreatedPage() {
                 </svg>
               </a>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* P8Z Clothing */}
+      <section className="py-12 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="text-center mb-8">
+            <Image
+              src="/images/created/p8z-clothing.png"
+              alt="P8Z Clothing Co"
+              width={600}
+              height={240}
+              className="mx-auto"
+            />
+          </div>
+          <div className="text-center">
+            <a
+              href="https://shopmlr.com/?s=P8Z&post_type=product"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-6 py-3 bg-[#eb092b] hover:bg-[#c9081f] text-white font-medium rounded transition-colors"
+            >
+              Shop P8Z Clothing
+              <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
           </div>
         </div>
       </section>
@@ -107,40 +141,6 @@ export default function CreatedPage() {
                 Download on App Store
               </a>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* YouTube */}
-      <section className="py-12 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4">
-          <div className="text-center mb-8">
-            <h2 className="text-2xl font-bold mb-4">YouTube Channel</h2>
-            <p className="text-gray-700 mb-6">
-              Subscribe for exclusive content, behind-the-scenes footage, interviews, and highlights.
-            </p>
-          </div>
-          <div className="aspect-video max-w-2xl mx-auto mb-6">
-            <iframe
-              src="https://www.youtube.com/embed/videoseries?list=PLd1gxAXJC-8m5s7rTg4L0K_3L9VE3Nkpo"
-              title="Stacy Paetz YouTube Channel"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              className="w-full h-full rounded-lg shadow-lg"
-            />
-          </div>
-          <div className="text-center">
-            <a
-              href="https://www.youtube.com/user/stacypaetz"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center px-6 py-3 bg-red-600 hover:bg-red-700 text-white font-medium rounded transition-colors"
-            >
-              <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
-              </svg>
-              Subscribe on YouTube
-            </a>
           </div>
         </div>
       </section>
