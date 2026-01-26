@@ -360,6 +360,48 @@ export default function HomePage() {
                 className="h-16 w-auto object-contain"
               />
             </a>
+            <a
+              href="https://www.nfl.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/images/logos/nfl-logo.png"
+                alt="NFL"
+                width={100}
+                height={100}
+                className="h-16 w-auto object-contain"
+              />
+            </a>
+            <a
+              href="https://www.nba.com/pacers"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/images/logos/indiana-pacers-logo.png"
+                alt="Indiana Pacers"
+                width={100}
+                height={100}
+                className="h-16 w-auto object-contain"
+              />
+            </a>
+            <a
+              href="https://sparks.wnba.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/images/logos/la-sparks-logo.png"
+                alt="LA Sparks"
+                width={100}
+                height={100}
+                className="h-16 w-auto object-contain"
+              />
+            </a>
           </div>
         </div>
       </section>
