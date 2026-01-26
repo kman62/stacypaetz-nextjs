@@ -66,7 +66,7 @@ export default function CoachingPage() {
             </h1>
 
             <p className="text-lg md:text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Led by an active ESPN, FOX, and CBS Sports veteran, you have the opportunity to be equipped with the skills, confidence, and access to accelerate your rise in broadcasting—with proven strategies and elite network connections.
+              Led by an active ESPN, FOX, and CBS Sports veteran. Gain the skills, confidence, and access to accelerate your rise in broadcasting—with proven strategies and elite network connections.
             </p>
           </div>
         </div>
