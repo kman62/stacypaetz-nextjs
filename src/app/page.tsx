@@ -430,6 +430,34 @@ export default function HomePage() {
                 className="h-16 w-auto object-contain"
               />
             </a>
+            <a
+              href="https://www.indycar.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/images/logos/indycar-logo.png"
+                alt="IndyCar"
+                width={100}
+                height={100}
+                className="h-16 w-auto object-contain"
+              />
+            </a>
+            <a
+              href="https://www.indianapolismotorspeedway.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/images/logos/indianapolis-speedway-logo.png"
+                alt="Indianapolis Motor Speedway"
+                width={100}
+                height={100}
+                className="h-16 w-auto object-contain"
+              />
+            </a>
           </div>
         </div>
       </section>
