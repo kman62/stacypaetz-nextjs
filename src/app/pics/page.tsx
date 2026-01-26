@@ -7,6 +7,7 @@ export const metadata = {
 
 const candid = [
   // Lead image
+  { src: '/images/stacy-on-stage.jpeg', alt: 'Stacy Paetz On Stage' },
   { src: '/images/candid/candid-20.jpg', alt: 'Candid' },
   // New Candid images from Downloads (1-70)
   { src: '/images/candid/candid-1.jpg', alt: 'Candid' },

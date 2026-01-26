@@ -9,6 +9,11 @@ export const metadata = {
 
 const testimonials = [
   {
+    name: "April Schilling",
+    role: "WNBA Scout, Head Basketball Coach, Director of CP3 West Coast",
+    content: "Stacy led an exceptional media training session with our women's basketball program, working one-on-one and in groups with more than a dozen student-athletes. She created a space where the players felt supported, prepared, and confident, breaking down how to tell their stories with clarity and authenticity. By the end of the training, you could see a real shift—players who were once hesitant were speaking with poise, purpose, and confidence. Stacy didn't just teach media skills; she empowered our athletes to own their voices and represent themselves and the program at the highest level.",
+  },
+  {
     name: "Marcus Thompson",
     role: "NBA All-Star",
     content: "Stacy transformed how I communicate with media and fans. Her training made me a better leader on and off the court.",

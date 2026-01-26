@@ -7,6 +7,10 @@ import Autoplay from 'embla-carousel-autoplay';
 
 const bannerImages = [
   {
+    src: "/images/stacy-on-stage.jpeg",
+    alt: "Stacy Paetz On Stage"
+  },
+  {
     src: "https://stacypaetz.com/wp-content/uploads/2014/04/Screenshot-2025-02-13-at-1.25.27-PM.png",
     alt: "Stacy Paetz Professional Portrait"
   },
