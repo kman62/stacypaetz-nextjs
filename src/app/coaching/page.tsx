@@ -66,7 +66,7 @@ export default function CoachingPage() {
             </h1>
 
             <p className="text-lg md:text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Led by an active ESPN, TNT & CBS Sports veteran with 20+ years of major network experience.
+              Led by an active ESPN, FOX & CBS Sports veteran with 20+ years of major network experience.
               Fast-track your broadcasting career with proven strategies and elite network access.
             </p>
           </div>
