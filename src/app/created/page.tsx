@@ -56,6 +56,7 @@ export default function CreatedPage() {
             <video
               controls
               className="w-full rounded-lg shadow-lg"
+              poster="/images/created/blocked-video-thumb.png"
             >
               <source src="https://stacypaetz.com/wp-content/uploads/2021/03/Blocked.mov" type="video/quicktime" />
               <source src="https://stacypaetz.com/wp-content/uploads/2021/03/Blocked.mov" type="video/mp4" />
