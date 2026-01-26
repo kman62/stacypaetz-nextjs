@@ -18,11 +18,6 @@ const testimonials = [
     role: "Retired Australian Rugby Union Player and Commentator",
     content: "What truly sets Stacy apart is her ability to break down broadcasting in a way that's both approachable and practical. She understands the industry inside and out, and she has a rare talent for explaining not just what to do, but why it matters. Whether she's asking the perfect question on the sideline or guiding a conversation in studio, her instincts are spot-on—and that translates seamlessly into her teaching. Anyone taking her Broadcasting 101 course will be learning from someone who has done the work, mastered the craft, and not only knows how to help others succeed, but genuinely cares that they do.",
   },
-  {
-    name: "Jessica Martinez",
-    role: "ESPN Sports Anchor",
-    content: "From aspiring journalist to ESPN anchor in 8 months. Stacy's network connections opened doors I never imagined possible.",
-  },
 ];
 
 const stats = [

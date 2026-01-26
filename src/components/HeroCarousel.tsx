@@ -11,6 +11,10 @@ const bannerImages = [
     alt: "Stacy Paetz"
   },
   {
+    src: "/images/stacy-white-jacket.png",
+    alt: "Stacy Paetz"
+  },
+  {
     src: "/images/stacy-on-stage.jpeg",
     alt: "Stacy Paetz On Stage"
   },
