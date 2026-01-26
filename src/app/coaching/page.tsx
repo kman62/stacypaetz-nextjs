@@ -200,15 +200,17 @@ export default function CoachingPage() {
               Take the first step toward becoming a network-ready professional.
               Schedule a consultation to discuss your goals.
             </p>
-            <Link
-              href="/contact"
+            <a
+              href="https://stacypaetz.app.clientclub.net/courses/offers/f207e657-c756-4368-b4b9-7de9f3487b6a"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-3 bg-[#eb092b] hover:bg-[#c9081f] text-white font-medium rounded-full transition-colors group"
             >
-              Schedule Consultation
+              Start Now
               <svg className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
-            </Link>
+            </a>
           </div>
         </div>
       </section>
