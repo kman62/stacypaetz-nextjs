@@ -23,11 +23,6 @@ const testimonials = [
     role: "ESPN Sports Anchor",
     content: "From aspiring journalist to ESPN anchor in 8 months. Stacy's network connections opened doors I never imagined possible.",
   },
-  {
-    name: "David Chen",
-    role: "CEO, TechSport Innovations",
-    content: "Our entire C-suite went through Stacy's program. Media coverage increased 300% and investor relations improved dramatically.",
-  }
 ];
 
 const stats = [
