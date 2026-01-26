@@ -403,34 +403,6 @@ export default function HomePage() {
               />
             </a>
             <a
-              href="https://www.tiktok.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:opacity-80 transition-opacity"
-            >
-              <Image
-                src="/images/logos/tiktok-logo.png"
-                alt="TikTok"
-                width={100}
-                height={100}
-                className="h-16 w-auto object-contain"
-              />
-            </a>
-            <a
-              href="https://www.lemon8-app.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:opacity-80 transition-opacity"
-            >
-              <Image
-                src="/images/logos/lemon8-logo.png"
-                alt="Lemon8"
-                width={100}
-                height={100}
-                className="h-16 w-auto object-contain"
-              />
-            </a>
-            <a
               href="https://www.indycar.com/"
               target="_blank"
               rel="noopener noreferrer"
