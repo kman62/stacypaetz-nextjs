@@ -7,6 +7,10 @@ import Autoplay from 'embla-carousel-autoplay';
 
 const bannerImages = [
   {
+    src: "/images/stacy-candid.png",
+    alt: "Stacy Paetz"
+  },
+  {
     src: "/images/stacy-on-stage.jpeg",
     alt: "Stacy Paetz On Stage"
   },
