@@ -41,9 +41,9 @@ export default function HomePage() {
               <p className="text-base md:text-lg">
                 Stacy Paetz began her career making history. At only 19-years-old, she made her first on-air
                 appearance on ESPN. She became the first female and youngest individual in the NBA to host every pre-game, halftime
-                and post-game show, as well as report from the sidelines for the Indiana Pacers on FOX Sports Indiana. Stacy
+                and post-game show, as well as report from the sidelines for the Indiana Pacers on FOX Sports. Stacy
                 was the first female announcer in the 90-year history of the World Famous Harlem Globetrotters, announcing
-                on both U.S. and international tours.
+                on both U.S. and international tours. She&apos;s covered 32 different men&apos;s and women&apos;s sports throughout her career.
               </p>
             </div>
 
@@ -102,20 +102,18 @@ export default function HomePage() {
 
           <div className="grid md:grid-cols-2 gap-6">
             <div className="aspect-video">
-              <iframe
-                src="https://www.youtube.com/embed/videoseries?list=PLd1gxAXJC-8m5s7rTg4L0K_3L9VE3Nkpo"
-                title="Highlights"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
+              <video
+                src="/videos/week-22-halftime.mov"
+                title="Week 22 Halftime"
+                controls
                 className="w-full h-full rounded-lg shadow"
               />
             </div>
             <div className="aspect-video">
-              <iframe
-                src="https://www.youtube.com/embed/videoseries?list=PLd1gxAXJC-8nKB-u6pJxGSVEBN0FmZdnD"
-                title="Interviews"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
+              <video
+                src="/videos/week-21-halftime.mp4"
+                title="Week 21 Halftime"
+                controls
                 className="w-full h-full rounded-lg shadow"
               />
             </div>
