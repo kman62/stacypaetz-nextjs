@@ -14,9 +14,9 @@ const testimonials = [
     content: "Stacy led an exceptional media training session with our women's basketball program, working one-on-one and in groups with more than a dozen student-athletes. She created a space where the players felt supported, prepared, and confident, breaking down how to tell their stories with clarity and authenticity. By the end of the training, you could see a real shift—players who were once hesitant were speaking with poise, purpose, and confidence. Stacy didn't just teach media skills; she empowered our athletes to own their voices and represent themselves and the program at the highest level.",
   },
   {
-    name: "Marcus Thompson",
-    role: "NBA All-Star",
-    content: "Stacy transformed how I communicate with media and fans. Her training made me a better leader on and off the court.",
+    name: "Marc Stcherbina",
+    role: "Retired Australian Rugby Union Player and Commentator",
+    content: "What truly sets Stacy apart is her ability to break down broadcasting in a way that's both approachable and practical. She understands the industry inside and out, and she has a rare talent for explaining not just what to do, but why it matters. Whether she's asking the perfect question on the sideline or guiding a conversation in studio, her instincts are spot-on—and that translates seamlessly into her teaching. Anyone taking her Broadcasting 101 course will be learning from someone who has done the work, mastered the craft, and not only knows how to help others succeed, but genuinely cares that they do.",
   },
   {
     name: "Jessica Martinez",
