@@ -220,6 +220,146 @@ export default function HomePage() {
                 className="h-16 w-auto object-contain"
               />
             </a>
+            <a
+              href="https://www.espn.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/images/logos/espn-logo.png"
+                alt="ESPN"
+                width={100}
+                height={100}
+                className="h-16 w-auto object-contain"
+              />
+            </a>
+            <a
+              href="https://www.foxsports.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/images/logos/fox-sports-logo.jpeg"
+                alt="FOX Sports"
+                width={100}
+                height={100}
+                className="h-16 w-auto object-contain"
+              />
+            </a>
+            <a
+              href="https://www.cbssports.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/images/logos/cbs-sports-logo.jpeg"
+                alt="CBS Sports"
+                width={100}
+                height={100}
+                className="h-16 w-auto object-contain"
+              />
+            </a>
+            <a
+              href="https://www.nbc.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/images/logos/nbc-logo.jpeg"
+                alt="NBC"
+                width={100}
+                height={100}
+                className="h-16 w-auto object-contain"
+              />
+            </a>
+            <a
+              href="https://www.nba.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/images/logos/nba-logo.jpeg"
+                alt="NBA"
+                width={100}
+                height={100}
+                className="h-16 w-auto object-contain"
+              />
+            </a>
+            <a
+              href="https://www.wnba.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/images/logos/wnba-logo.png"
+                alt="WNBA"
+                width={100}
+                height={100}
+                className="h-16 w-auto object-contain"
+              />
+            </a>
+            <a
+              href="https://www.ncaa.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/images/logos/ncaa-logo.png"
+                alt="NCAA"
+                width={100}
+                height={100}
+                className="h-16 w-auto object-contain"
+              />
+            </a>
+            <a
+              href="https://www.bigtennetwork.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/images/logos/big-ten-logo.png"
+                alt="Big Ten Network"
+                width={100}
+                height={100}
+                className="h-16 w-auto object-contain"
+              />
+            </a>
+            <a
+              href="https://www.nll.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/images/logos/nll-logo.png"
+                alt="NLL"
+                width={100}
+                height={100}
+                className="h-16 w-auto object-contain"
+              />
+            </a>
+            <a
+              href="https://www.amazon.com/prime"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/images/logos/amazon-prime-logo.png"
+                alt="Amazon Prime"
+                width={100}
+                height={100}
+                className="h-16 w-auto object-contain"
+              />
+            </a>
           </div>
         </div>
       </section>
