@@ -15,10 +15,6 @@ const bannerImages = [
     alt: "Stacy Paetz On Stage"
   },
   {
-    src: "https://stacypaetz.com/wp-content/uploads/2014/04/Screenshot-2025-02-13-at-1.25.27-PM.png",
-    alt: "Stacy Paetz Professional Portrait"
-  },
-  {
     src: "https://stacypaetz.com/wp-content/uploads/2014/04/Screenshot-2025-02-13-at-1.25.46-PM.png",
     alt: "Stacy Paetz Broadcasting"
   },
