@@ -90,12 +90,12 @@ export default function CoachingPage() {
           <div className="relative rounded-3xl overflow-hidden bg-white border border-gray-200 shadow-lg">
             <div className="grid md:grid-cols-2 gap-0">
               {/* Image Side */}
-              <div className="relative h-64 md:h-auto min-h-[300px]">
+              <div className="relative h-64 md:h-auto min-h-[300px] bg-gray-100 flex items-center justify-center">
                 <Image
                   src="/images/broadcasting-101.webp"
                   alt="Broadcasting 101 - Fast Track Your Dream Career"
                   fill
-                  className="object-cover"
+                  className="object-contain"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent to-white/50 md:hidden" />
               </div>
