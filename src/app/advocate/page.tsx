@@ -100,7 +100,7 @@ const organizations = [
   {
     name: 'STOP POACHING NOW!',
     image: 'https://i0.wp.com/stacypaetz.com/wp-content/uploads/2014/06/SPN1.jpg?resize=800%2C462',
-    url: 'https://www.stoppoaching.org',
+    url: 'https://www.stoppoaching-now.org/',
     description: 'STOP POACHING NOW! was established with the mandate to protect gravely endangered animals: tigers, elephants, rhinos, lions and primates. By working together to expose the truth of black market animal hunting and trading, we can encourage people to protect these precious creatures, rather than killing them for money. We aim to influence politicians, educate populations and raise funds for existing grass root organizations that safeguard endangered animals and their environments in Africa and Asia. We seek to eradicate the demand for these illegal animal products with the support of all platforms of media including a youth outreach program that will resonate globally.',
   },
 ];
