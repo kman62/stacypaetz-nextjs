@@ -18,6 +18,11 @@ const testimonials = [
     role: "Retired Australian Rugby Union Player and Commentator",
     content: "What truly sets Stacy apart is her ability to break down broadcasting in a way that's both approachable and practical. She understands the industry inside and out, and she has a rare talent for explaining not just what to do, but why it matters. Whether she's asking the perfect question on the sideline or guiding a conversation in studio, her instincts are spot-on—and that translates seamlessly into her teaching. Anyone taking her Broadcasting 101 course will be learning from someone who has done the work, mastered the craft, and not only knows how to help others succeed, but genuinely cares that they do.",
   },
+  {
+    name: "Alycia Washington",
+    role: "Retired USA Rugby Player, Commentator",
+    content: "When I was first getting into commentary, Stacy Paetz was the person I trusted most. Before my first sideline and studio gigs, she took the time to walk me through terminology, timing, prep, and all the little things that make a big difference on air. She was generous with her knowledge, honest with her feedback, and always made being in front of a camera feel less overwhelming. Her guidance gave me real confidence going into those early broadcasts, and I still lean on what she taught me. She's incredible at what she does, and anyone working with her is going to be in very good hands.",
+  },
 ];
 
 const stats = [
